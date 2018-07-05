@@ -1,0 +1,24 @@
+{
+  "name": "14.8",
+  "version": "1.0.0",
+  "description": "Zadanie 14.8",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojtekboj/module_14-14.8.git"
+  },
+  "author": "Wojciech Bojarczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojtekboj/module_14-14.8/issues"
+  },
+  "homepage": "https://github.com/wojtekboj/module_14-14.8#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
